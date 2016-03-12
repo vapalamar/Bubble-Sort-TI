@@ -1,0 +1,22 @@
+{
+  "name": "BubbleSort",
+  "authors": [
+    "Vyacheslav Palamar <vyacheslav.palamar@gmail.com>"
+  ],
+  "description": "Bubble sort algorithm implementation.",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
+  }
+}

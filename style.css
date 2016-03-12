@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  background: #2c3e50;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 5px solid #ffa817;
+  padding: 10px;
+  color: #ecf0f1;
+}
+
+#input_section {
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+input, button {
+  font-size: 20px;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#button_apply {
+  background: #ffa817;
+  width: 10%;
+  margin-left: 2.5%;
+}
+
+#nums_input {
+  background: #ecf0f1;
+  width: 80%;
+  margin-left: 2.5%;
+}
+
+#execution_section, #error_message {
+  display: none;
+}
+
+#execution_section, #error_message {
+  position: absolute;
+  bottom: 0;
+  height: 60%;
+  width: 100%;
+  text-align: center;
+}
+
+#error_message h3 {
+  color: #ecf0f1;
+}
+
+ul {
+  list-style: none;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+ul li {
+  display: inline;
+  font-size: 20px;
+  border: 2px solid #000000;
+  padding: 5px 10px;
+  color: #000000;
+  background: #ecf0f1;
+}
+
+#buttons {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  clear: both;
+}
+
+#buttons button {
+  background: #ffa817;
+  margin: 10px;
+}
+
+.current {
+  background: #ffa817;
+}
+
+.swapped {
+  background: #ff0000;
+}
+
+.final {
+  background: #7f8c8d;
+}
